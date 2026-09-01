@@ -1,0 +1,25 @@
+# ===== Agent 编排 =====
+langgraph>=1.0
+langchain-core>=1.0
+
+# ===== LLM 调用 =====
+openai>=3.0
+
+# ===== 视觉检测 =====
+# Python 3.12 on Intel macOS: torch 2.2 requires NumPy < 2.
+torch==2.2.2
+torchvision==0.17.2
+numpy<2
+ultralytics>=8.4,<8.5
+opencv-python>=4.10,<4.11
+
+# ===== Web UI =====
+gradio>=6.0,<7.0
+
+# ===== 配置管理 =====
+python-dotenv>=1.0
+pydantic>=2.0
+PyYAML>=6.0
+
+# ===== 测试 =====
+pytest>=8.0

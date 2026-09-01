@@ -1,0 +1,14 @@
+thresholds:
+  low_confidence: 0.45
+  high_density_vehicle_count: 10
+  medium_density_vehicle_count: 5
+  high_density_person_count: 6
+  medium_density_person_count: 3
+  minimum_recommended_width: 640
+  minimum_recommended_height: 480
+
+weights:
+  evidence_completeness: 25
+  confidence_quality: 25
+  scene_complexity: 25
+  decision_readiness: 25

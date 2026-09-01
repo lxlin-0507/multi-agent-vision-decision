@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+
+# Secrets
+.env
+
+# Local runtime data
+cache/
+logs/
+reports/
+
+# Model weights and large artifacts
+*.pt
+*.pth
+*.onnx
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
